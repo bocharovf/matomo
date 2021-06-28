@@ -1,1 +1,27 @@
-<b>Test</b>
+<html>
+    <head>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/piwik/3.4.0/piwik.js" integrity="sha512-dJ0NVnVYjL8+OMaWjaAz1lD2neAztsEPE3nhVIe2KPWjmA0rni+yStaOuxaTLFjjdF2+1dlbjDd0KLSWJ6wGGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    </head>
+    <body>
+        <script>
+            console.log("works");
+
+            var _paq = window._paq = window._paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+            var u="https://matomo.obs.mts.ru/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '1']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+
+        <b>Test</b>
+    </body>
+
+</html>
+
